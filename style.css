@@ -1,0 +1,31 @@
+.main {
+   border:2px solid #292929;
+   background-color: khaki;
+   height: 400px;
+   width: 350px;
+   margin:10px auto ;
+}
+.num-block{
+   margin: 10px;
+   border-radius: 26px 26px;
+   display:flex;
+   justify-content: center; 
+}
+.num-block button {
+   margin: 15px; 
+   border-radius:50%;
+   outline: none;
+   border:1px solid #e4e4e4 ;
+   background-color: #e4e4e4;
+   width: 50px;
+   height: 50px;
+  
+}
+.simbols-block {
+   flex-direction:column;
+   margin-left: 0;
+}
+.key-pad {
+   display: flex;
+   justify-content: space-evenly;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="main">
+            <form>
+                <label for = "inpu-val">
+                    
+                    <input type="text"  id="input-val" placeholder="0">
+                    
+                </label> 
+                
+                <button onclick="deleteInput(event)" class="simbol-AC" >
+                        AC
+                    </button>
+                    
+                    <button onclick="returnEqual(event)" >
+                            =
+                        </button>
+                        
+                        
+                        <p id="output">
+                            
+                        </p>
+                        <!-- <button id="submit-button"> 
+                            get-value
+                        </button> -->
+            <div class="key-pad">
+                    <div class="numbers">
+                            <div class="num-block">
+                        <button class="number" value = "1"  >
+                                            1
+                             </button>
+                         <button class="number" value = "2" >
+                                2
+                            </button>
+                            <button class="number" value = "3" >
+                                3
+                            </button>
+                            
+                        </div>
+                        <div class="num-block">
+                            <button class="number" value = "4" >
+                                4
+                            </button>
+                            <button class="number" value = "5" >
+                                5
+                            </button>
+                            <button class="number" value = "6" >
+                                6
+                            </button>
+                            
+                        </div>
+                        <div class="num-block">
+                            
+                            <button class="number" value ="7" >
+                                7
+                            </button>
+                            <button class="number" value = "8">
+                                8
+                            </button>
+                            <button class="number" value = "9" >
+                                9
+                            </button>
+                        </div>
+                        <div class="num-block">
+                            <button class="number" value = "0" >
+                                0
+                            </button>                   
+                            <button class="number" value=".">
+                                        .
+                            </button>
+                        </div> 
+                    </div>
+                       <div class="simbols"> 
+                            <div class="simbols-block num-block">
+                                            <button class="number"value="+"> 
+                                                +
+                                            </button>
+                                    <button class="number" value="-">
+                                        -
+                                    </button>
+                                    <button class="number" value="*">
+                                        *
+                                    </button>
+                                    <button class="number" value="/">
+                                        /
+                                    </button>
+                
+                                </div>
+                       </div>
+            </div>
+        </form>      
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
+<!-- silicon valley -->
